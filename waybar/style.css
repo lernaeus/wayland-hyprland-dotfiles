@@ -1,0 +1,79 @@
+* {
+    font-family: RobotoMono Nerd Font;
+    font-size: 14px;
+    padding: 0 4px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+@define-color dark                  #3c3836;
+@define-color blue                  #458588;
+@define-color green                 #98971A;
+@define-color green2                #B8BB26;
+@define-color yellow                #FABD2F;
+@define-color red                   #FB4934;
+@define-color magenta               #D3869B;
+@define-color aqua                  #689D6A;
+@define-color lightblue             #83A598;
+@define-color white                 #EBDBB2;
+@define-color black                 #282828;
+
+window#waybar {
+    background-color: @dark;
+}
+
+#workspaces {
+    background-color: transparent;
+}
+
+#workspaces button {
+    background-color: transparent;
+    color: @white;
+}
+
+#workspaces button.active {
+    background-color: @yellow;
+    color: @dark;
+}
+
+#custom-spotify {
+    margin-right: 5px;
+    background-color: transparent;
+    color: @green;
+}
+
+#custom-weather {
+    margin-left: 5px;
+    background-color: transparent;
+    color: @white;
+}
+
+#clock {
+    background-color: transparent;
+    color: @white;
+}
+
+#cpu {
+    background-color: transparent;
+    color: @red;
+}
+
+#memory {
+    background-color: transparent;
+    color: @yellow;
+}
+
+#battery {
+    background-color: transparent;
+    color: @green2;
+}
+
+#pulseaudio {
+    background-color: transparent;
+    color: @blue;
+}
+
+#backlight {
+    background-color: transparent;
+    color: @lightblue;
+}
