@@ -14,4 +14,4 @@ tl;dr:
 - Shell: fish + starship
 - Application Launcher: rofi, rofi-power-menu (AUR)
 
-TODO: fix gtk/qt theme-ing, fix sleep/hibernate/lock, sddm theme
+TODO: fix gtk/qt theme-ing

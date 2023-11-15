@@ -38,7 +38,7 @@ icons[cancel]="\u00d7"
 declare -A actions
 actions[lockscreen]="swaylock"
 #actions[switchuser]="???"
-actions[logout]="loginctl terminate-session ${XDG_SESSION_ID-}"
+actions[logout]="wayland-logout"
 actions[suspend]="systemctl suspend"
 actions[reboot]="systemctl reboot"
 actions[shutdown]="systemctl poweroff"
