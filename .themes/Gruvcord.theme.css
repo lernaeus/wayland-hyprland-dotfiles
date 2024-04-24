@@ -13,15 +13,15 @@
 /* Variables */
 
 .theme-dark {
-    --background-primary: #32302F;
-    --background-primary-alt: #32302F;
-    --background-secondary: #32302F;
-    --background-secondary-alt: #32302F;
-    --background-tertiary: #32302F;
+    --background-primary: #282828;
+    --background-primary-alt: #282828;
+    --background-secondary: #282828;
+    --background-secondary-alt: #282828;
+    --background-tertiary: #282828;
     --background-modifier-active: #373432;
     --background-modifier-selected: #504945;
     --background-modifier-accent: #3C3836;
-    --background-floating: #32302F;
+    --background-floating: #282828;
     --background-accent: #504945;
     --border: #3C3836;
     --brand-experiment-30a: #EB3E49;
@@ -33,7 +33,7 @@
     --elevation-medium: none;
     --elevation-high: none;
     --scrollbar-thin-thumb: #665c54;
-    --scrollbar-auto-track: #32302F;
+    --scrollbar-auto-track: #282828;
     --header-primary: #ebdbb2;
     --interactive-normal: #EBDBB4;
     --interactive-hover: #fbf1c7;
