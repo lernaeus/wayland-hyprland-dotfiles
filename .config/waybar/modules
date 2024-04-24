@@ -1,0 +1,90 @@
+{
+        "custom/spotify": {
+            "exec": "/usr/bin/python3 ~/.config/waybar/scripts/mediaplayer.py --player spotify",
+            "format": "{}  󰓇",
+            "return-type": "json",
+            "on-click-middle": "playerctl play-pause",
+            "on-click": "playerctl previous",
+            "on-click-right": "playerctl next"
+        },
+
+        "custom/weather": {
+            "interval": 600,
+            "exec": "wttrbar",
+            "format": "{} °C",
+            "return-type": "json",
+            "tooltip": "true"
+        },
+
+        // End of custom modules //
+        "hyprland/workspaces": {
+            "format": "{id}",
+            "format-active": " {id} ",
+            "on-click": "activate"
+        },
+        "tray": {
+            "icon-size": 18,
+            "spacing": 8,
+            "show-passive-items": false
+        },
+        "cpu": {
+            "interval": 30,
+            "format": "[ CPU {usage}%",
+            // "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+            "on-click": "kitty --class system_monitor -e btop"
+
+        },
+        "memory": {
+            "format": "{percentage}% RAM ]",
+            "interval": 30,
+            "on-click": "kitty --class system_monitor -e btop",
+            "max-lenght": 35
+        },
+        "backlight": {
+            // "device": "acpi_video1",
+            "format": "{percent}% {icon}",
+            "on-scroll-down": "swayosd-client --brightness raise",
+            "on-scroll-up": "swayosd-client --brightness lower",
+            "format-icons": ["󰃚", "󰃚", "󰃛", "󰃜", "󰃜", "󰃝", "󰃞", "󰃟", "󰃠"]
+        },
+        "battery": {
+            "states": {
+                "warning": 50,
+                "critical": 20
+            },
+            "format": "{capacity}% {icon}",
+            "format-charging": "{capacity}% 󰂅",
+            "format-plugged": "{capacity}% {icon}",
+            "format-good": "", // An empty format will hide the module
+            "format-full": "󰁹",
+            "format-icons": ["󰂎","󰁺","󰁻","󰁼","󰁽","󰁾","󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+            "on-click": ".config/rofi/powermenu/type-5/powermenu.sh",
+        },
+        "pulseaudio": {
+            "format": "{icon} {volume}%",
+            "format-bluetooth": "{icon} {volume}%",
+            "format-bluetooth-muted": "婢  Muted",
+            "format-muted": " Muted",
+            "format-icons": {
+                "headphone": "󰋋",
+                "hands-free": "",
+                "headset": "󰋋",
+                "phone": "󰄜",
+                "portable": "",
+                "car": "󰸛",
+                "default": ["󰕿", "󰖀", "󰕾"]
+            },
+            "on-click-middle": "pavucontrol",
+            "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+            "on-scroll-down": "wpctl set-volume -l 1.2 @DEFAULT_AUDIO_SINK@ 5%-",
+            "on-scroll-up": "wpctl set-volume -l 1.2 @DEFAULT_AUDIO_SINK@ 5%+"
+        },
+        "network": {
+            "interface": "wlan0",
+            "format-wifi":  " {signalStrength}% 󰤨 ",
+            "format-disconnected": " Offline 󰤭 ",
+            "tooltip-format": "{ifname} via {gwaddr} 󰱶",
+            "tooltip-format-wifi": "{essid}",
+            //"on-click": "~/.config/hypr/scripts/rofi-wifi-menu"
+        }
+    }
