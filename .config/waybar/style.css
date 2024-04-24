@@ -19,7 +19,7 @@
 @define-color black                 #282828;
 
 window#waybar {
-    background-color: @dark;
+    background-color: @black;
 }
 
 #workspaces {

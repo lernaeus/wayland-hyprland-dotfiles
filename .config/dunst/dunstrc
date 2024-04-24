@@ -3,7 +3,7 @@
     frame_color = "#ebdbb2"
 
     # font = Inter Regular 14
-    font = RobotoMono Nerd Font Mono 14    
+    font = RobotoMono Nerd Font Mono 12
 
     # Allow a small subset of html markup:
     #   <b>bold</b>
