@@ -39,6 +39,6 @@ def create_symlinks(source_dir, config_dir):
 source_directory = os.path.join(os.getcwd(), '.config')
 config_directory = os.path.expanduser("~/.config")
 
-# create_symlinks(source_directory, config_directory)
+create_symlinks(source_directory, config_directory)
 
-print(source_directory, config_directory)
+# print(source_directory, config_directory)
