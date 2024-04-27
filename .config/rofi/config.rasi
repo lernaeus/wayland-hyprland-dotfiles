@@ -12,11 +12,11 @@ CONFIGURATION FOR ROFI
 
 		  font: "RobotoMono Nerd Font 12";
 		  /* font: "Inter 12"; */
-		  
+
 		  /* Colors */
 		  foreground: #ebdbb2;
 		  background: #282828;
-		  
+
 		  active-background: #282828;
 		  urgent-backgroubd: #cc241d;
 
@@ -37,7 +37,7 @@ CONFIGURATION FOR ROFI
 		  border: 3;
 		  border-color: @foreground;
 		  padding: 10;
-		  width: 30%;		  
+		  width: 512px;
 }
 
 #mainbox {

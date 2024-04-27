@@ -1,3 +1,3 @@
 function fish_greeting
-neofetch --kitty $HOME/Pictures/wallpaper.png --size 15% --crop_mode fit && echo "" && fortune -s
+neofetch --kitty $HOME/.config/neofetch/logo.png --size 214 && echo "" && fortune -s
 end
