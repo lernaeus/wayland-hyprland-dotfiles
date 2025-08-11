@@ -1,3 +1,3 @@
 function ls
-eza -lxabhM --icons=always --no-user --no-time $argv
+eza -lxabhMG --icons=always --no-user --no-time $argv
 end
