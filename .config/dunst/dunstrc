@@ -1,6 +1,6 @@
 [global]
     frame_width = 3
-    frame_color = "#ebdbb2"
+    frame_color = "#d4be98"
 
     # font = Inter Regular 14
     font = RobotoMono Nerd Font Mono 12
@@ -186,17 +186,17 @@
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
     background = "#282828"
-    foreground = "#ebdbb2"
+    foreground = "#d4be98"
     timeout = 5
 
 [urgency_normal]
     background = "#282828"
-    foreground = "#ebdbb2"
+    foreground = "#d4be98"
     timeout = 5
 
 [urgency_critical]
     background = "#282828"
-    foreground = "#ebdbb2"
+    foreground = "#d4be98"
     timeout = 0
 
 

@@ -9,35 +9,30 @@ CONFIGURATION FOR ROFI
 */
 
 * {
-
-		  font: "RobotoMono Nerd Font 12";
+		  font: "RobotoMono Nerd Font 14";
 		  /* font: "Inter 12"; */
 
 		  /* Colors */
-		  foreground: #ebdbb2;
+		  foreground: #d4be98;
 		  background: #282828;
 
 		  active-background: #282828;
 		  urgent-backgroubd: #cc241d;
 
-		  selected-background: #ebdbb2;
-		  selected-urgent-background: #ebdbb2;
-		  selected-active-bacground: #ebdbb2;
+		  selected-background: #d4be98;
+		  selected-urgent-background: #d4be98;
+		  selected-active-bacground: #d4be98;
 
 		  bordercolor: #1d2021;
-		  separatorcolor: #ebdbb2;
-
-
-
+		  separatorcolor: #d4be98;
 }
 
 #window {
-
 		  background-color: @background;
 		  border: 3;
 		  border-color: @foreground;
 		  padding: 10;
-		  width: 512px;
+		  width: 30%;
 }
 
 #mainbox {
@@ -53,9 +48,10 @@ CONFIGURATION FOR ROFI
 		  text-color: @foreground;
 		  padding: 25px;
 }
+
 #listview {
 		  fixed-height: 0;
-		  lines: 5;
+		  lines: 6;
 		  border: 0px;
 		  spacing: 0px;
 		  scrollbar: false;
@@ -63,9 +59,7 @@ CONFIGURATION FOR ROFI
 }
 
 #element {
-
 		  padding: 10px;
-
 }
 
 #element.normal.normal {background-color: @background; text-color: @foreground;}

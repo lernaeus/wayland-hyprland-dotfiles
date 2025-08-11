@@ -2,7 +2,7 @@
     "clock": {
             // "timezone": "Europe/Bucharest",
             "tooltip": true,
-            "tooltip-format": "<tt><small>{calendar}</small></tt>",
+            "tooltip-format": "<tt>{calendar}</tt>",
             "interval": 60,
             "format": "{:%R}",
             "max-length": 40,
@@ -13,9 +13,9 @@
                 "mode-mon-col"  : 3,
                 "format": {
                           "months":     "<span color='#FABD2F'><b>{}</b></span>",
-                          "days":       "<span color='#EBDBB2'><b>{}</b></span>",
-                          "weeks":      "<span color='#EBDBB2'><b>W{}</b></span>",
-                          "weekdays":   "<span color='#EBDBB2'><b>{}</b></span>",
+                          "days":       "<span color='#D4BE98'><b>{}</b></span>",
+                          "weeks":      "<span color='#D4BE98'><b>W{}</b></span>",
+                          "weekdays":   "<span color='#D4BE98'><b>{}</b></span>",
                           "today":      "<span color='#FABD2F'><b><u>{}</u></b></span>"
                           }
             },

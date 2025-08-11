@@ -9,8 +9,9 @@
             "keys": "magenta"
         },
         "size": {
-            "ndigits": 0,
-            "maxPrefix": "MB"
+            "ndigits": 2,
+            "maxPrefix": "GB",
+            "binaryPrefix": "jedec"
         }
     },
     "modules": [
@@ -43,7 +44,7 @@
         },
         {
             "type": "memory",
-            "format": "{3} ({1}.0f / {2})",
+            "format": "{3} ({1} / {2})",
             "key": "󰻠"
         },
         {

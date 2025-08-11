@@ -1,3 +1,3 @@
 function remove-unused-packages
-paru -Qtdq | paru -Rns - $argv
+paru -Qtdq | paru -Rns - $argv --noconfirm
 end
