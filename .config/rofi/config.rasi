@@ -51,7 +51,7 @@ CONFIGURATION FOR ROFI
 
 #listview {
 		  fixed-height: 0;
-		  lines: 6;
+		  lines: 10;
 		  border: 0px;
 		  spacing: 0px;
 		  scrollbar: false;

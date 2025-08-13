@@ -39,7 +39,7 @@ declare -A actions
 actions[lockscreen]="hyprlock"
 #actions[switchuser]="???"
 actions[logout]="hyprctl dispatch exit"
-actions[suspend]="systemctl suspend"
+actions[suspend]="uwsm stop"
 actions[reboot]="systemctl reboot"
 actions[shutdown]="systemctl poweroff"
 

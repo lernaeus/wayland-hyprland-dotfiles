@@ -14,7 +14,8 @@
         "output": "HDMI-A-1",
         "position": "top",
         "spacing": "4",
-        "modules-left": ["hyprland/workspaces", "custom/spotify"],
-        "modules-right": ["cpu", "memory", "custom/weather", "clock", "tray"]
+        "modules-left": ["hyprland/workspaces"],
+        "modules-right": ["clock", "tray"],
+        "modules-center": ["hyprland/window"]
     }
 ]
